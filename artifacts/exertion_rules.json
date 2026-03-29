@@ -1,0 +1,21 @@
+{
+  "bands": {
+    "low": {
+      "hr_max": 90,
+      "motion_max": 0.3
+    },
+    "moderate": {
+      "hr_max": 120,
+      "motion_max": 0.7
+    },
+    "high": {
+      "hr_max": 150,
+      "motion_max": 1.2
+    },
+    "very_high": {
+      "hr_max": 999,
+      "motion_max": 999
+    }
+  },
+  "description": "Rule-based exertion proxy using HR mean + motion SMA"
+}
